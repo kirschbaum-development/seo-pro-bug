@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a3a0b501737cfe293beeeeffe9433b7",
+    "content-hash": "83ec91f3391680d10569a44a5226418a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3755,6 +3755,51 @@
                 }
             ],
             "time": "2021-07-28T20:13:45+00:00"
+        },
+        {
+            "name": "statamic/eloquent-driver",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/statamic/eloquent-driver.git",
+                "reference": "84b0d40c56c23be35ee0abd63db6a59e172dcf8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/statamic/eloquent-driver/zipball/84b0d40c56c23be35ee0abd63db6a59e172dcf8b",
+                "reference": "84b0d40c56c23be35ee0abd63db6a59e172dcf8b",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Eloquent Driver",
+                    "description": "Allows you to store Statamic data in a database."
+                },
+                "laravel": {
+                    "providers": [
+                        "Statamic\\Eloquent\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Statamic\\Eloquent\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Allows you to store Statamic data in a database.",
+            "support": {
+                "issues": "https://github.com/statamic/eloquent-driver/issues",
+                "source": "https://github.com/statamic/eloquent-driver/tree/v0.1.1"
+            },
+            "time": "2021-01-11T23:28:44+00:00"
         },
         {
             "name": "statamic/seo-pro",

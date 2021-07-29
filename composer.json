@@ -11,6 +11,7 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "statamic/cms": "3.1.*",
+        "statamic/eloquent-driver": "^0.1.1",
         "statamic/seo-pro": "^2.2"
     },
     "require-dev": {
